@@ -1,0 +1,27 @@
+.bg-biru{
+    background-color: #2196F3;
+}
+.bg-biru-secondary{
+    background-color: #1976D2;
+    color: white;
+}
+.bg-grey{
+    background-color :#616161;
+    color: white;
+}
+.link-ikuti{
+    font-size: 18px;
+    color: white;
+}
+.link-ikuti:hover{
+  color: #007bff;
+}
+.link:hover{
+  color: #FFFFFF;
+}
+.minus{
+    margin-left: -15px;
+}
+body{
+  margin-top: 150px;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dmspt</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-biru-secondary p-4 mb-5 fixed-top">
+        <a class="navbar-brand font-weight-bold" href="../index.html">dmspt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Beranda<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="../tanya.html">Tanya Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../tentang.html">Tentang Kami</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cari</button>
+            </form>
+        </div>
+    </nav>
+     
+
+    <div class="container-fluid ">
+        <div class="row pl-5 pt-2">
+            <div class="col-lg-8 border border-black p-5 shadow-sm rounded mr-4">
+                <h2>Bagian 1 : Tipe Data & Variabel Dalam Bahasa C</h2>
+                <img src="../img/blog/1.data-type.jpg" style="width: 50rem;;" alt="" class="mb-3 mt-2">
+                <p>
+                    Menurut wikipedia, "Data adalah catatan atas kesimpulan fakta. Data merupakan bentuk jamak dari datum, berasal dari bahasa Latin yang berarti sesuatu yang diberikan. Dalam penggunaan sehari - hari data berarti suatu pernyataan yang diterima secara apa adanya. Pernyataan ini adalah hasil pengukuran dan pengamatan suatu variabel yang bentuknya dapat berupa angka, kata - kata , atau citra". Dapat disimpulkan bahwa data merupakan suatu representasi fakta apa adanya yang belum mempunyai makna berupa angka , karakter , gambar ataupun yg lainnya.
+                </p>
+                <p>
+                    <h3>Tipe Data</h3>
+                    Lalu apa itu tipe data ? Tipe data adalah pola representasi data yang ada pada komputer. Seperti yang kita ketahui sebelumnya bahwa data memiliki berbagai macam jenis. Nah dengan adanya tipe data membuat kita mengetahui termasuk data jenis apa data tersebut. Tipe data sendiri digolongkan menjadi 2 jenis , yaitu sebagai berikut. 
+                    <ol>
+                        <li>
+                            Tipe data dasar / primitive : merupakan tipe data yang sudah terdefinisakan dalam suatu bahasa. Contoh : bilangan bulat , pecahan , karakter , kalimat dll.
+                        </li>
+                        <li>
+                            Tipe data bentukan : merupakan sekumpulan tipe data primitive atau lebih yang dikemas menjadi suatu kesatuan tipe data baru. Contoh : KTP, Kartu Mahasiswa, Identitas, dll.
+                        </li>
+                    </ol>
+                    Pada umumnya banyak orang yang menggunakan tipe data dasar. Tipe data ini terbagi menjadi tipe data bilangan dan Tipe data Karakter  
+                </p>
+               
+                <p>
+                    <h4>Tipe Data Bilangan</h4>
+                    Berikut ini merupakan berbagai macam tipe data bentuk bilangan adengan berbagai ukuran dan jenis yang dapat ditangani yaitu bulat dan pecahan
+                   <div class="text-center">
+                       <img src="../img/blog/1/Picture1.png" style="width: 40rem;" alt="">
+                   </div>
+                </p>
+                <p>
+                    <h4>Tipe Data Karakter </h4>
+                    Tipe data karakter menangani data dalam bentuk karakter tunggal(char) maupun sekumpulan karkter(string).
+                    <ul>
+                        <li>
+                            Tipe data char : didgunakan untuk menampung nilai karakter tunggal, seperti huruf, angka , maupun simbol.
+                        </li>
+                        <li>
+                            Tipe data string : merupakan sekumpulan karakter. Biasanya berupa sebuah kata atau kalimat baik yang bermakna ataupun tidak bermakna
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <h3>Variabel</h3>
+                    Variabel merupakan suatu simbol dalam program yang digunakan untuk menampung data dengan berbagai karakterisitik atau tipe tertentu.Variabel dapat berubah ubah nilainya sesuai dengan kondisi yang berlangsung.
+                    <br>Secara sederhana variabel terdiri dari 3 komponen yaitu : 
+                    <ol>
+                        <li>Tipe Variabel : disesuaikan dengan tipe data yang dibutuhkan</li>
+                        <li>Nama Variabel : penamaan masing masing variable</li>
+                        <li>Nilai Variabel : nilai yang diberikan setiap variabel</li>
+                    </ol>
+                </p>
+                <p>
+                    <h4>Atruan Penulisan Variabel</h4>
+                    <div class="text-center my-1">
+                        <img src="../img/blog/1/Picture4.png" style="width: 35rem;" alt="">
+                    </div>
+                    Ada beberapa aturan yang harus diperhatikan seorang programmer : 
+                    <ol>
+                        <li>Nama variabel tidak boleh mengandung spasi. Jika ingin menggunakan dua buah kata atau lebih gunakan garis bawah</li>
+                        <li>Nama variabel harus diawali dengan huruf atau garis bawah tidak boleh diawali dengan angka ataupun simbol lainnya</li>
+                        <li>Nama variabel tidak boleh disandingkan dengan simbol</li>
+                        <li>Bersifat case sensitive artinya huruf besar dan kecil memiliki arti yang berbeda</li>
+                        <li>Nama Variabel tidak boleh menggunakan keyword yang ada dibahasa C, seperti printf , scanf dll.</li>
+                    </ol>
+                </p>
+                <p>
+                    <h4>Pendekrlarasian Variabel</h4>
+                    Dalam bahasa C pendeklarasian variabel diawali dengan penulisan tipe data variabel, kemudian nama variabel tersebut, dan diakhiri dengan titik koma (;). 
+                    <div class="text-center">
+                        <img src="../img/blog/1/Picture3.png" style="width: 20rem;" alt="">
+                    </div>
+                </p>
+            </div>
+            <div class="col-lg-3 border border-black p-3 shadow-sm rounded">
+                <h4>Artikel Lainnya</h4>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/2.Input_Output.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="inputoutput.html" class="text-dark">Bagian 2 : Input & Output Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/3.Arithmetic.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="aritmatika.html" class="text-dark">Bagian 3 : Operasi Aritmatika Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/4.Logic.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="logika.html" class="text-dark">Bagian 4 : Operator Logika & Rasional Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/5.If.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="percabangan.html" class="text-dark">Bagian 5 : Percabangan Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/6.Looping.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="perulangan.html" class="text-dark">Bagian 6 : Perulangan Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/7.Array.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="array.html" class="text-dark">Bagian 7 : Array Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/8.Searching.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="searching.html" class="text-dark">Bagian 8 : Algotitma Pencarian Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="../img/blog/9.Sorting.jpg" alt="" style="width: 10rem;">
+                    </div>
+                    <div class="col-lg minus pr-1 ">
+                      <a href="sorting.html" class="text-dark">Bagian 9 : Algoritma Pengrutuan Dalam Bahasa C</a>  
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-grey p-4 mt-5">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row mt-3 ">
+            <div class="col-lg pl-3">
+                <h3>
+                   dmspt
+                </h3>
+                <p>
+                  Learn More, Grow Up
+                </p>   
+                <div>
+                    <a href="#home" id="top-up"><img src="../img/logo/arriba1.png" alt="" style="width: 3rem;" class="mr-1" ></a>
+                </div>   
+            </div>
+            <div class="col-lg pl-3 mt-1">
+                <h4 class="mb-3">
+                    Ikuti Kami
+                </h4>
+                <p>
+                  <img src="../img/logo/github2.png" alt="Github" style="width: 2rem;" class="mr-1">
+                  <a href="https://github.com/dmspt" class="text-decoration-none link-ikuti" >@dmspt</a>
+                </p>
+                <p>
+                  <img src="../img/logo/instagram.png" alt="Instagram" style="width: 2rem;" class="mr-1">
+                  <a href="https://www.instagram.com/dmspt__" class="text-decoration-none link-ikuti" >@dmspt__</a>
+                </p>
+                <p>
+                  <img src="../img/logo/telegram.png" alt="Telegram" style="width: 2rem;" class="mr-1">
+                  <a href="https://t.me.com/dmspt" class="text-decoration-none link-ikuti" >@dmspt</a>
+                </p>
+                <p>
+                  <img src="../img/logo/twitter.png" alt="Twitter" style="width: 2rem;" class="mr-1">
+                  <a href="https://twitter.com/dmpst_" class="text-decoration-none link-ikuti" >@dmspt_</a>
+                </p>     
+            </div>
+            <div class="col-lg pl-3 ">
+                <h4>
+                    dmspt
+                </h4>
+                <ul class="list-unstyled ">
+                  <li><a href="../index.html" class="link">Beranda</a> </li>
+                  <li><a href="../tanya.html" class="link">Tanya Kami</a></li>
+                  <li><a href="../tentang.html" class="link">Tentang Kami</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row border-top border-dark mt-4 pt-3">
+          <div class="col-lg text-center">
+                Copyright &#169; 2019 <a href="https://www.instagram.com/dmspt__" class="link-ikuti" >dmspt</a>
+          </div>
+        </div>
+        </div>
+      </div> 
+    </footer>
+    <script src="../bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/script.js"></script>
+</body>
+</html>
